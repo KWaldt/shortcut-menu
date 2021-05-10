@@ -1,4 +1,4 @@
-# Unity: Shortcut Menu Demo
+# Unity: Shortcut Menu Package
 
 This is a demo for a tutorial on how to create custom shortcuts to ease your workflow. (And how to create git packages for Unity.)  
 The tutorial is still WIP.
