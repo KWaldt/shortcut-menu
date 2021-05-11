@@ -1,6 +1,6 @@
 {
   "name": "com.kristinawaldt.shortcut-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Shortcut Menu",
   "description": "Some shortcut-accessible workflow functions displayed in the menu.",
   "unity": "2019.4",
