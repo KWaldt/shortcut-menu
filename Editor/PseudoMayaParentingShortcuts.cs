@@ -8,7 +8,7 @@ namespace KristinaWaldt.ShortcutMenu
         private const string ParentFunctionsName = Settings.MenuName + "Parent To Last or Unparent &p";
 
         [MenuItem(ParentFunctionsName)]
-        public static void ParentFunctions()
+        public static void PseudoMayaParenting()
         {
             // NOTE: We use Selection.objects because it stores the data in the order selected.
 
