@@ -12,7 +12,7 @@ namespace KristinaWaldt.ShortcutMenu
 		[MenuItem(Settings.MenuName + "Shortcuts Window", priority = 1)]
 		public static void Init()
 		{
-			var window = (ShortcutWindow) EditorWindow.GetWindow(typeof(ShortcutWindow));
+			var window = (ShortcutWindow) GetWindow(typeof(ShortcutWindow));
 			window.titleContent = new GUIContent("Shortcuts");
 			window.Show();
 		}
