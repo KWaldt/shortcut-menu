@@ -33,3 +33,8 @@ You can, of course, use the shortcuts as they are. They should all support Undo 
 
 ### Reset Transform Component
 * Applies to all selected objects. Useful if you're annoyed by Unity trying to place the object "at the correct spot in the scene" when you just want your manager to be in the origin.
+
+## Editor Window
+* File: ShortcutWindow.cs
+* The window implements our functions as buttons. That's useful if you don't want to learn new shortcuts—you can reach the functions with one click. (One less then going through the menu.)
+* The codes gives an example how we can use Action and NicifyVariableNamen to create Buttons in a single line.
