@@ -13,8 +13,7 @@ namespace KristinaWaldt.ShortcutMenu
             // Optional: Parent under same parent, but: what if the selection has different parents?
 			
             Transform parent = new GameObject("Parent").transform;
-            Vector3 position = GetCenterFromSelected();
-            parent.position = position;
+            parent.position = GetCenterFromSelected();
             Undo.RegisterCreatedObjectUndo(parent.gameObject, "Create Empty Parent");
 			
             foreach (Transform transform in Selection.transforms)
@@ -22,6 +21,7 @@ namespace KristinaWaldt.ShortcutMenu
                 Undo.SetTransformParent(transform, parent, "Create Empty Parent");
             }
         }
+        
         private static Vector3 GetCenterFromSelected()
         {
             Vector3 center = Vector3.zero;

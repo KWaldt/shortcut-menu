@@ -29,6 +29,7 @@ namespace KristinaWaldt.ShortcutMenu
 
 			DrawTitle("Lighting");
 			DrawButton(LightingShortcuts.BakeLighting);
+			DrawButton(LightingShortcuts.StopBakeLighting);
 			AddSpace();
 			
 			DrawTitle("Parenting");
