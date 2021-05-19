@@ -10,7 +10,7 @@ namespace KristinaWaldt.ShortcutMenu
         [MenuItem(RandomYRotationName)]
         public static void RandomYRotation()
         {
-            Undo.RegisterCompleteObjectUndo(Selection.transforms, "Undo Set Random Y Rotation");
+            Undo.RegisterCompleteObjectUndo(Selection.transforms, "Set Random Y Rotation");
             foreach (var transform in Selection.transforms)
             {
                 Vector3 tempRotation = transform.localEulerAngles;

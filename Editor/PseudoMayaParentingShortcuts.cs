@@ -43,7 +43,7 @@ namespace KristinaWaldt.ShortcutMenu
                 }
 
                 Transform newParent = transform.parent != parent ? parent : transform.parent.parent; 
-                Undo.SetTransformParent(gameObject.transform, newParent, "Undo Set Last As Parent");
+                Undo.SetTransformParent(gameObject.transform, newParent, "Set Last As Parent");
             }
         }
 
@@ -55,7 +55,7 @@ namespace KristinaWaldt.ShortcutMenu
                 return;
 
             var newParent = transform.parent.parent;
-            Undo.SetTransformParent(transform, newParent, $"Undo Unparent {transform.gameObject.name}");
+            Undo.SetTransformParent(transform, newParent, $"Unparent {transform.gameObject.name}");
         }
 
         [MenuItem(ParentFunctionsName, true)]

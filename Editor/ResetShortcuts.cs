@@ -10,7 +10,7 @@ namespace KristinaWaldt.ShortcutMenu
         [MenuItem(ResetTransformName)]
         public static void ResetTransforms()
         {
-            Undo.RegisterCompleteObjectUndo(Selection.transforms, "Undo Set Random Y Rotation");
+            Undo.RegisterCompleteObjectUndo(Selection.transforms, "Set Random Y Rotation");
             foreach (var transform in Selection.transforms)
             {
                 transform.localPosition = Vector3.zero;
